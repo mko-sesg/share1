@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fb;
+}
+
+nav ul {
+  display: flex;
+  gap: 0.75rem;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  background-color: #0b2e59;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #14457f;
+}
